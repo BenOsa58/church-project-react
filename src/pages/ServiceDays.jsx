@@ -8,6 +8,9 @@ function ServiceDays() {
       <div>
         This is the page for the service days and the weather for each day
       </div>
+      <p>test</p>
+      <p>test</p>
+      <p>test</p>
     </>
   );
 }
