@@ -16,7 +16,7 @@ const ServiceDays = () => {
   // const churchLongitude = "13.386";
   const fetchChurchLocationWeather = async (lat, lon) => {
     // const urlOpenWeatherAPI = `https://api.openweathermap.org/data/2.5/forecast?lat=${churchLatitude}&lon=${churchLongitude}&units=metric&appid=${apikey}`;
-    const urlWeatherApi = `http://api.weatherapi.com/v1/forecast.json?key=${apikey2}&q=Berlin%20Tempelhof&days=3&aqi=no&alerts=no`;
+    const urlWeatherApi = `https://api.weatherapi.com/v1/forecast.json?key=${apikey2}&q=Berlin%20Tempelhof&days=3&aqi=no&alerts=no`;
     // const response = await fetch(urlOpenWeatherAPI);
     const response = await fetch(urlWeatherApi);
 
