@@ -25,3 +25,9 @@ const [userLocation, setUserLocation]=useState("")
 ```
 
 - Insert Weather2 : use each of the 3 variables inside the JSX to render the value
+
+- create a reviews page component: component should open a modal
+  -Modal: should contain a form to put the -day of service - activity name -opinion.
+- add a route in router
+- add a link in navbar
+-
